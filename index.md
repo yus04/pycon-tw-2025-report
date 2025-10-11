@@ -1,33 +1,40 @@
 # PyCon TW 2025 カンファレンスレポート
 
 執筆者
-- 齊藤優
-- 橘祐一郎（@whitphx）
+- 齊藤優 (さいとうゆう)
+- 橘祐一郎（たちばなゆういちろう）
 - PyLadies Tokyo 石田真彩（いしだまあや）
 
 目次 (記事の内容)
-PyCon TW の概要
-- PyCon TW とは
-- スケジュール
-- 会場の雰囲気
-セッション内容
-- カンファレンス 1 日目
-- カンファレンス 2 日目
-コラム
-- コラム①
-- コラム②
-- コラム③
-まとめ
+- [PyCon TW 2025 概要](#pycon-tw-2025-概要)
+    - [PyCon TW とは](#pycon-tw-とは)
+    - [スケジュール](#スケジュール)
+    - [会場の様子](#会場の様子)
+- [カンファレンス 1 日目](#カンファレンス-1-日目)
+    - [21st Century Sports Analytics and Technology Innovation by Tica Lin (keynote)](#21st-century-sports-analytics-and-technology-innovation-by-tica-lin-keynote)
+    - [Panel discussion](#panel-discussion)
+    - [Lightning Talks](#lightning-talks)
+- [カンファレンス 2 日目](#カンファレンス-2-日目)
+    - [CPython Past, Current, and Future by Dongbee Na (Keynote)](#cpython-past-current-and-future-by-dongbee-na-keynote)
+    - [Behind the scenes of FastAPI and friends for developers and builders by Sebastian Ramirez (Keynote)](#behind-the-scenes-of-fastapi-and-friends-for-developers-and-builders-by-sebastian-ramirez-keynote)
+    - [Lightning Talks](#lightning-talks-1)
+    - [Closing](#closing)
+- [PyCon TW 2025 コラム](#pycon-tw-2025-コラム)
+    - [コラム①：PyCon TW AI Notebook](#コラム①pycon-tw-ai-notebook)
+    - [コラム②：乖乖](#コラム②乖乖)
+    - [コラム③：あつまれ! PyLadies!](#コラム③-あつまれ-pyladies)
+- [まとめ](#まとめ)
 
 
 こちらは PyCon TW 2025 の参加レポートになります。PyCon TW 2025 は 2025 年 9 月 5 日から 7 日にかけて台湾の台北で実施されました。
 
 ![Pycon TW の HP](./images/pycon-tw-hp.png)
 
-# PyCon TW とは
+# PyCon TW 2025 概要
+## PyCon TW とは
 PyCon TWは、台湾で開催されるPythonコミュニティのイベントです。地元の有志メンバーによる自主運営で開催されており、台湾のさまざまな分野でPythonを活用するエンジニア、研究者、学生、企業関係者などが集います。参加者は、経験や最新技術の情報交換を行いながら、台湾コミュニティ独自の熱意や交流を体感できるイベントです。
 
-# スケジュール
+## スケジュール
 PyCon TW 2025のイベント概要は以下の通りです。
 |項目|内容|
 |---|---|
@@ -38,7 +45,7 @@ PyCon TW 2025のイベント概要は以下の通りです。
 |会場|Taipei New Horizon|
 |参加費|NT$ 3,490（約 17,000 円）|
 
-# 会場の様子
+## 会場の様子
 会場は臺北文創という建物の 6 階でした。台湾のメインステーション駅から板南線 (青色の路線) で 5 駅なのと、駅から徒歩 9 分の立地の会場だったので、非常にアクセスが良い場所でした。
 
 臺北文創の建物の様子 (個人的には建物への入口が少しわかりづらかったです)
@@ -127,14 +134,15 @@ Q&Aでは、Pydantic v1からv2への移行時の苦労や、コミュニティ�
 
 抽選会や記念撮影では、参加者同士の交流や笑顔があふれ、ボランティア・スポンサー・各運営チームへの感謝のメッセージも丁寧に伝えられていました。最後には「来年もぜひ参加を」といった前向きな言葉があり、温かい雰囲気の中でイベントの幕が閉じました。
 
-# PyCon TW 2025 コラム①：PyCon TW AI Notebook
+# PyCon TW 2025 コラム
+## コラム①：PyCon TW AI Notebook
 これは、リアルタイム文字起こし機能と、中国語、英語、日本語への翻訳機能を持つ AI ツールで、今回の PyCon TW で私が大変お世話になったツールです。こちらは PyCon TW の有志からなる運営の開発チームが用意したもので、シンプルで使いやすく、ツールとしての出来が良いと感じました。
 こちらは、実際に日本語への翻訳機能を使った画面になります。
 ![AI Notebook](./images/ai-notebook.png)
 
 PyCon TW の概要でも書きましたが、参加者ほぼ全員が聴講するキーノートのうち1つが中国語で実施され、トークに関しては半分以上が中国語だったため、中国語がわからない人からすればほぼ必須のツールだったと言えます。PyCon TW の運営さん、ご配慮本当にありがとうございました。
 
-# PyCon TW 2025 コラム②：乖乖
+## コラム②：乖乖
 PyCon TW 2025 に参加してきました。その際に台湾の**乖乖**（Kuai Kuai/Guai Guai）というお菓子について面白いカルチャーを知ったので紹介します。
 
 遡ってPyCon TWの半年ほど前、2月に東京で開催された[Open Source Conference](https://event.ospn.jp/osc2025-spring/)（OSC）で、たまたま台湾のOSSカンファレンス、[COSCUP](https://coscup.org/)のブースに立ち寄りました。その運営メンバーが台湾から来ていて、 台湾の乖乖というスナックをお土産に配っていました。IT機器の近くに、このスナックを壊れないための"お守り"として置いておくのが台湾の文化なのだと教えてもらいました[^1]。
@@ -178,7 +186,7 @@ _コンビニで売っている乖乖。お守りには緑色を買うこと！_
 参加者のチャットではこちらの記事が貼られていました: [The 'good luck' snack that makes Taiwan's technology behave, BBC](https://www.bbc.com/worklife/article/20210414-the-good-luck-snack-that-makes-taiwans-technology-behave)
 
 
-# PyCon TW 2025 コラム③: あつまれ! PyLadies!
+## コラム③: あつまれ! PyLadies!
 [PyLadies Tokyo](https://tokyo.pyladies.com)
 運営メンバーの1人、まーや([@maaya8585(https://x.com/maaya8585))です。    
 今年のPyCon TWは、"PyLadies Event" というアクティビティがday1の14時からSprintルーム(自由にテーマを持ち寄って議論することができるフリーディスカッションルーム) で開催されました。    
@@ -199,3 +207,6 @@ Soojin(ソウル)、Cheuk(PSF)、Maaya(東京)](./images/pyladies-event-organize
 day1午後に本アクティビティがあったことから、day1後のPyNightやday2のイベント中にもPyLadies Eventに参加していた方々と何度も交流することができ、すごくよい時間をすごせました。    
 
 ![day2に撮ったPyLadiesグループ写真](./images/group-photo.jpeg)
+
+# まとめ
+PyCon TW 2025 に参加してみて、Python への関心を深めるだけではなく、様々な学びを得られた体験になりました。AI時代におけるエンジニアの在り方について考えさせられたり、CPythonやFastAPIの開発者から直接話を聞けたことで、オープンソースへの理解と関心が一層深まりました。台湾の乖乖文化やAI Notebookのような細やかな配慮、PyLadies Eventでの温かい交流など、技術を通じた人と人との繋がりの素晴らしさも実感しました。言語の壁を超えて共有できるPythonへの情熱や、コミュニティの持つ人の温かさを実感し、来年もぜひ参加したいと思える貴重な経験となりました。
